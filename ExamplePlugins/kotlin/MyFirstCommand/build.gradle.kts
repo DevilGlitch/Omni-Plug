@@ -1,13 +1,14 @@
 version = "1.0.0" // Plugin version. Increment this to trigger the updater
-description = "My first commands!" // Plugin description that will be shown to user
+description = "Omni Plug a one for all plug for useful cmds" // Plugin description that will be shown to user
 
 aliucord {
     // Changelog of your plugin
     changelog.set("""
-        Some changelog
+        18/1/2023 - Created Plugins Barebones
     """.trimIndent())
     // Image or Gif that will be shown at the top of your changelog page
-    // changelogMedia.set("https://cool.png")
+    
+    //changelogMedia.set("https://cool.png")
 
     // Add additional authors to this plugin
     // author("Name", 0)
