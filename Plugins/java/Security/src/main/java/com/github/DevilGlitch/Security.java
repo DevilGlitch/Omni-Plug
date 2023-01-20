@@ -36,13 +36,15 @@ public class Encrytion extends Plugin {
         private String defKey = "A1B5C2frw0wq3#4$!";
         private String msg = "";
         private String s = "tH3-83g/1Ni/nG-0F-tH3-3nD";   
+        // Make sure you Change this in ___ Patch too if you decide to do it
         
-        /* ^-------------------------------------------------------------------------
-         * Start Phrase Stating its a Encrypted message.
-         *  Can be changed if desired
-         *  Just make sure you are warry of break chars and basic java rules
-         *  -------------------------------------------------------------------------
-         */
+        /*
+        *   ^-------------------------------------------------------------------------
+        *   Start Phrase Stating its a Encrypted message.
+        *   Can be changed if desired
+        *   Just make sure you are warry of break chars and basic java rules
+        *   -----------------------
+        */
         
         private String s1 = "%Demon%";
         private String s2 = "/Gl/tch/";
@@ -51,6 +53,10 @@ public class Encrytion extends Plugin {
         private String s5 = "H0n3StY";
         private String s6 = "1-3ds$%#2x1.yt?";
         private String s7 = "-R0-S3-";
+        private char [] tist;
+        private int [] tsar;
+        private String [] tran;
+        private boolean yeahono;
 
         public void start(Context context) {                //Set Key CMD
                 "setkey",
